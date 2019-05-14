@@ -2,3 +2,5 @@ curl -o ~/.aliases  https://raw.githubusercontent.com/artiomgiza/aliases/master/
 source ~/.aliases
 echo "source ~/.aliases" >> ~/.bashrc
 echo "source ~/.aliases" >> ~/.zshrc
+
+echo "done"
