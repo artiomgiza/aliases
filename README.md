@@ -10,6 +10,10 @@ source ~/.aliases
 rm ~/install_aliases
 ```
 
+#### Useful default aliases:
+* `ealiases` - open aliases file in vim
+* `sal` - load (need if file was updated) aliases file to current terminal (new opened terminals will load latest version automatically)
+
 #### What is "alias"
 In current context we can refer to alias as to _short shortcut to long terminal comand_ ([wiki](https://en.wikipedia.org/wiki/Alias_(command)))
 
