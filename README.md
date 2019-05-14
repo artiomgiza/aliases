@@ -11,7 +11,7 @@ rm ~/install_aliases
 ```
 
 #### Useful default aliases:
-* `ealiases` - open aliases file in vim
+* `ealiases` - open aliases file in [vim](https://linuxhandbook.com/basic-vim-commands/)
 * `sal` - load (need if file was updated) aliases file to current terminal (new opened terminals will load latest version automatically)
 
 #### What is "alias"
