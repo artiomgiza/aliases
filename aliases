@@ -1,0 +1,55 @@
+alias gf="git fetch"
+alias gd="git diff"
+alias gcom="gco master; ggpull"
+alias b="go build"
+alias t="APP_ENV=test APP_CONF_PATH=$(pwd)/conf ginkgo -r"
+alias tt="APP_ENV=test APP_CONF_PATH=$(pwd)/conf ginkgo ./tests"
+alias tp="APP_ENV=test APP_CONF_PATH=$(pwd)/conf ginkgo"
+alias de="dep ensure"
+
+alias б="go build"
+alias т="APP_ENV=test APP_CONF_PATH=$(pwd)/conf ginkgo -r"
+alias тт="APP_ENV=test APP_CONF_PATH=$(pwd)/conf ginkgo ./tests"
+alias тп="APP_ENV=test APP_CONF_PATH=$(pwd)/conf ginkgo"
+alias де="dep ensure"
+alias гцо="gco"
+alias гцом="gcom"
+alias гф="git fetch"
+
+alias נ="go build"
+alias א="APP_ENV=test APP_CONF_PATH=$(pwd)/conf ginkgo -r"
+alias אא="APP_ENV=test APP_CONF_PATH=$(pwd)/conf ginkgo ./tests"
+alias אפ="APP_ENV=test APP_CONF_PATH=$(pwd)/conf ginkgo"
+alias גק="dep ensure"
+alias עבם="gco"
+alias עבםצ="gcom"
+alias עכ="git fetch"
+
+alias mockgen_all_please="grep 'mockgen ' ./ -R | grep 'lib/' | sed -e 's,.*mockgen,mockgen,g'"
+alias clean-deleted-branches="git fetch -p 2>&1 | grep origin | sed -e 's,.*origin/,git branch -D ,g'"
+
+alias iii="redis-server &; pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start &; mysql.server start &;"
+alias c=clear
+alias p=pwd
+alias ll="ls -l"
+alias la="ls -la"a
+alias hg="history | grep"
+alias l="less -N"
+
+alias ealiases="vim $HOME/.aliases"
+alias sal="source $HOME/.aliases"
+
+alias cdgo="~/go/src/github.com/gtforge/"
+
+ulimit -n 10000
+
+getpod() {                       
+    kubectl --namespace scrum"$1" get pod | grep "$2"- | grep -v redis| grep -v sphinx |  grep -v scheduler |  grep -v worker
+}
+
+getbash() {                      
+ kubectl --namespace scrum"$1"  exec -it "$2" -c "$3" bash     
+}
+
+
+
