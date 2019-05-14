@@ -1,1 +1,4 @@
-
+curl -o ~/.aliases  https://raw.githubusercontent.com/artiomgiza/aliases/master/aliases
+source ~/.aliases
+echo "source ~/.aliases" >> ~/.bashrc
+echo "source ~/.aliases" >> ~/.zshrc
